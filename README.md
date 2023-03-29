@@ -172,7 +172,7 @@ celery -A project worker --pool=solo -l info
 ## Important
 
 ```bash
-'''
+
 'Hit this url 10/15 at the sametimes http://127.0.0.1:8000/'
 'Each time you hit url there's been task assigned in redis queue'
 'In our case task is to print 0 to 9'
