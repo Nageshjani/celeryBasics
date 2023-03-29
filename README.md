@@ -56,15 +56,17 @@ INSTALLED_APPS = [
 ```
 ## REDIS CONFIG
 
-## sh 578
+![Screenshot (578)](https://user-images.githubusercontent.com/34247973/228630214-928a8264-d6e1-40fb-9ca9-8113a617caaa.png)
+
 ```bash
 'Open Your Redis File'
 'Double Click on redis-server'
 'Double Click on redis-cli'
 ```
 
-## 579
-## 580
+![Screenshot (579)](https://user-images.githubusercontent.com/34247973/228630270-8c455343-3578-4873-b831-f8441d50b8de.png)
+![Screenshot (580)](https://user-images.githubusercontent.com/34247973/228630308-07beefa0-99fd-4642-9818-f1ca7517c0fd.png)
+
 ```bash
 'Type ping in redis-cli'
 'You should get PONG in reply'
@@ -142,7 +144,8 @@ urlpatterns = [
 ```
 
 
-## ss 581
+![Screenshot (581)](https://user-images.githubusercontent.com/34247973/228630419-216ad690-7f72-4ac9-9e44-0ffb3ae35655.png)
+
 ```bash
 celery -A my_project_name worker --pool=solo -l info
 ```
@@ -157,7 +160,8 @@ python manage.py runserver
 ```bash
 'go to url http://127.0.0.1:8000/
 ```
-## ss 582
-## ss 583
+
+![Screenshot (582)](https://user-images.githubusercontent.com/34247973/228630479-cd62dbe2-5013-4ecf-a274-18acd54878bb.png)
+![Screenshot (583)](https://user-images.githubusercontent.com/34247973/228630534-b4add345-6860-44b0-86ff-fb23285ee559.png)
 
 celery -A project worker --pool=solo -l info
