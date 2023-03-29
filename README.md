@@ -165,3 +165,21 @@ python manage.py runserver
 ![Screenshot (583)](https://user-images.githubusercontent.com/34247973/228630534-b4add345-6860-44b0-86ff-fb23285ee559.png)
 
 celery -A project worker --pool=solo -l info
+
+
+
+
+## Important
+
+```bash
+'''
+'Hit this url 10/15 at the sametimes http://127.0.0.1:8000/'
+'Each time you hit url there's been task assigned in redis queue'
+'In our case task is to print 0 to 9'
+'so what i am trying to see here is that if you hit url 15 times'
+'there will  be 15 tasks  created'
+'and they all will be executed one by one'
+
+'So basically celery works asynchronously'
+
+```
