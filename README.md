@@ -174,7 +174,7 @@ celery -A project worker --pool=solo -l info
 ```bash
 
 'Hit this url 10/15 at the sametimes http://127.0.0.1:8000/'
-'Each time you hit url there's been task assigned in redis queue'
+'Each time you hit url theres been task assigned in redis queue'
 'In our case task is to print 0 to 9'
 'so what i am trying to see here is that if you hit url 15 times'
 'there will  be 15 tasks  created'
